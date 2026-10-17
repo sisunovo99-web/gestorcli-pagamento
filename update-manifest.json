@@ -1,5 +1,6 @@
 {
   "version": "1.0.2",
-  "url": "https://expo.dev/accounts/expogo000/projects/gestorcli/builds",
-  "notes": "Versão com histórico de cobranças, assinatura e IPTV usando Supabase; WhatsApp permanece no worker dedicado."
+  "apkUrl": "https://expo.dev/artifacts/eas/NSqJqTpiFMOVoCpQQuTUqMvWK4xtz7JeNoDkBov9C3g.apk",
+  "url": "https://expo.dev/accounts/sisupl/projects/gestorcli/builds/b342c3dd-473e-4397-be54-5b6d226bc60d",
+  "notes": "Versão com download progressivo e instalação do APK pelo aplicativo."
 }
