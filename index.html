@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pagamento Pix</title>
+  <style>
+    body{margin:0;background:#f4f7fb;color:#152033;font-family:Arial,sans-serif}
+    .card{max-width:430px;margin:28px auto;padding:28px;background:#fff;border-radius:22px;box-shadow:0 10px 32px #17315b20;text-align:center}
+    .qr{width:280px;height:280px;margin:20px auto;display:block}
+    .code{background:#f1f5f9;border:1px solid #dbe5f1;border-radius:12px;padding:13px;text-align:left;word-break:break-all;font-size:12px;color:#324154}
+    .copy{width:100%;margin-top:14px;padding:15px;border:0;border-radius:12px;background:#1769e0;color:#fff;font-size:16px;font-weight:700}
+    .error{color:#b42318}
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1>Pagamento Pix</h1>
+    <p id="greeting">Carregando pagamento...</p>
+    <canvas id="qr" class="qr" width="280" height="280" hidden></canvas>
+    <p id="instruction" hidden>Escaneie o QR Code ou copie o código abaixo.</p>
+    <div id="pix" class="code" hidden></div>
+    <button id="copy" class="copy" hidden>Copiar Pix</button>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.4/build/qrcode.min.js"></script>
+  <script>
+    const functionUrl = 'https://szuyfrvgcrrafwwbxqwb.supabase.co/functions/v1/payment-link';
+    const code = new URLSearchParams(location.search).get('code') || '';
+    const greeting = document.getElementById('greeting');
+    const qr = document.getElementById('qr');
+    const instruction = document.getElementById('instruction');
+    const pix = document.getElementById('pix');
+    const copy = document.getElementById('copy');
+    fetch(functionUrl + '?code=' + encodeURIComponent(code) + '&format=json')
+      .then((response) => response.json().then((body) => ({ ok: response.ok, body })))
+      .then(({ ok, body }) => {
+        if (!ok || !body.success || !body.pixPayload) throw new Error(body.error || 'Link inválido ou expirado.');
+        greeting.textContent = 'Olá, ' + (body.clientName || 'Cliente') + (body.amount ? ' — R$ ' + body.amount : '') + '.';
+        QRCode.toCanvas(qr, body.pixPayload, { width: 280, margin: 1, errorCorrectionLevel: 'M' });
+        qr.hidden = false;
+        instruction.hidden = false;
+        pix.textContent = body.pixPayload;
+        pix.hidden = false;
+        copy.hidden = false;
+      })
+      .catch((error) => {
+        greeting.textContent = error.message;
+        greeting.className = 'error';
+      });
+    copy.addEventListener('click', async () => {
+      await navigator.clipboard.writeText(pix.textContent || '');
+      copy.textContent = '✓ Código Pix copiado';
+    });
+  </script>
+</body>
+</html>
