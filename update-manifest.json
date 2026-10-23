@@ -1,6 +1,6 @@
 {
-  "version": "1.0.2",
-  "apkUrl": "https://expo.dev/artifacts/eas/NSqJqTpiFMOVoCpQQuTUqMvWK4xtz7JeNoDkBov9C3g.apk",
-  "url": "https://expo.dev/accounts/sisupl/projects/gestorcli/builds/b342c3dd-473e-4397-be54-5b6d226bc60d",
-  "notes": "Versão com download progressivo e instalação do APK pelo aplicativo."
+  "version": "1.0.9",
+  "apkUrl": "https://expo.dev/artifacts/eas/a7OBr2uQkzlH8j6yh4N9OsSGq98h8EQWGtGPqfcX3jk.apk",
+  "url": "https://expo.dev/accounts/sisupl/projects/gestorcli/builds/51b4b1c5-0e76-493b-b630-f8900fbbfa84",
+  "notes": "Atualização com atalhos públicos de suporte, aprovação automática global de cadastros e melhorias de segurança no login."
 }
