@@ -1,6 +1,6 @@
 {
-  "version": "1.0.9",
-  "apkUrl": "https://expo.dev/artifacts/eas/a7OBr2uQkzlH8j6yh4N9OsSGq98h8EQWGtGPqfcX3jk.apk",
-  "url": "https://expo.dev/accounts/sisupl/projects/gestorcli/builds/51b4b1c5-0e76-493b-b630-f8900fbbfa84",
-  "notes": "Atualização com atalhos públicos de suporte, aprovação automática global de cadastros e melhorias de segurança no login."
+  "version": "1.0.10",
+  "apkUrl": "https://expo.dev/artifacts/eas/72mvS3fYn28gVGwjYzi41IqYwxawjTfjog9R-PIAELA.apk",
+  "url": "https://expo.dev/accounts/sisupl/projects/gestorcli/builds/b4a73d75-b516-49a6-801a-e5d150adaf97",
+  "notes": "Atualização com redefinição automática de código por 30 dias, atalhos de suporte visíveis e geração de mensagens personalizadas pelo gateway OpenAI do Supabase."
 }
