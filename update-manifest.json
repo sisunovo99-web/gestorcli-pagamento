@@ -1,6 +1,5 @@
 {
-  "version": "1.0.10",
-  "apkUrl": "https://expo.dev/artifacts/eas/72mvS3fYn28gVGwjYzi41IqYwxawjTfjog9R-PIAELA.apk",
-  "url": "https://expo.dev/accounts/sisupl/projects/gestorcli/builds/b4a73d75-b516-49a6-801a-e5d150adaf97",
-  "notes": "Atualização com redefinição automática de código por 30 dias, atalhos de suporte visíveis e geração de mensagens personalizadas pelo gateway OpenAI do Supabase."
+  "version": "1.0.25",
+  "url": "https://expo.dev/accounts/sisupl/projects/gestorcli/builds/4ce447fc-b638-4d42-a52a-a8ece32f8466",
+  "notes": "WhatsApp IPTV preservado, vencimentos mais próximos no topo e cartões azuis, amarelos ou vermelhos conforme a data. O APK está sendo preparado pela conta oficial sisupl."
 }
