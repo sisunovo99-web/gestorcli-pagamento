@@ -1,5 +1,6 @@
 {
-  "version": "1.0.27",
-  "url": "https://expo.dev/accounts/sisupl/projects/gestorcli/builds/2d9e1e21-1ebc-46a5-a134-646d721c7909",
-  "notes": "Olho do Dashboard para ocultar ou mostrar Todos, Manuais, IPTV, totais e clientes por plano."
+  "version": "1.0.28",
+  "apkUrl": "https://expo.dev/artifacts/eas/75421e89-a8c0-4985-b196-e8fd9a576bff.apk",
+  "url": "https://expo.dev/accounts/sisupl/projects/gestorcli/builds/75421e89-a8c0-4985-b196-e8fd9a576bff",
+  "notes": "Aviso de atualização central, temporário e com botão X para fechar rapidamente."
 }
