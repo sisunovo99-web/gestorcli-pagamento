@@ -1,5 +1,5 @@
 {
-  "version": "1.0.25",
-  "url": "https://expo.dev/accounts/sisupl/projects/gestorcli/builds/4ce447fc-b638-4d42-a52a-a8ece32f8466",
-  "notes": "WhatsApp IPTV preservado, vencimentos mais próximos no topo e cartões azuis, amarelos ou vermelhos conforme a data. O APK está sendo preparado pela conta oficial sisupl."
+  "version": "1.0.27",
+  "url": "https://expo.dev/accounts/sisupl/projects/gestorcli/builds/2d9e1e21-1ebc-46a5-a134-646d721c7909",
+  "notes": "Olho do Dashboard para ocultar ou mostrar Todos, Manuais, IPTV, totais e clientes por plano."
 }
