@@ -1,6 +1,6 @@
 {
-  "version": "1.0.28",
-  "apkUrl": "https://expo.dev/artifacts/eas/75421e89-a8c0-4985-b196-e8fd9a576bff.apk",
-  "url": "https://expo.dev/accounts/sisupl/projects/gestorcli/builds/75421e89-a8c0-4985-b196-e8fd9a576bff",
-  "notes": "Aviso de atualização central, temporário e com botão X para fechar rapidamente."
+  "version": "1.0.29",
+  "apkUrl": "https://expo.dev/artifacts/eas/gYaLpWDnE2ClRaAike-571qNK85WKxfs5RD0JRVjKqE.apk",
+  "url": "https://expo.dev/accounts/sisupl/projects/gestorcli/builds/07d0990d-2de9-4875-8f30-2d943cb2b3b6",
+  "notes": "Resumo de vencimentos corrigido para incluir clientes manuais e IPTV. O APK é baixado diretamente dentro do aplicativo."
 }
