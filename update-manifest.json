@@ -1,6 +1,5 @@
 {
-  "version": "1.0.29",
-  "apkUrl": "https://expo.dev/artifacts/eas/gYaLpWDnE2ClRaAike-571qNK85WKxfs5RD0JRVjKqE.apk",
-  "url": "https://expo.dev/accounts/sisupl/projects/gestorcli/builds/07d0990d-2de9-4875-8f30-2d943cb2b3b6",
-  "notes": "Resumo de vencimentos corrigido para incluir clientes manuais e IPTV. O APK é baixado diretamente dentro do aplicativo."
+  "version": "1.0.32",
+  "apkUrl": "https://expo.dev/artifacts/eas/d1Bmum5ubeZIXzbO5OqyH1jpB4Hw8mdQ57GC8Hk1fqg.apk",
+  "notes": "Correção do botão Instalar: abre o instalador Android, mostra Instalando e libera Abrir após a confirmação."
 }
