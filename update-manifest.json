@@ -1,5 +1,5 @@
 {
-  "version": "1.0.32",
-  "apkUrl": "https://expo.dev/artifacts/eas/d1Bmum5ubeZIXzbO5OqyH1jpB4Hw8mdQ57GC8Hk1fqg.apk",
-  "notes": "Correção do botão Instalar: abre o instalador Android, mostra Instalando e libera Abrir após a confirmação."
+  "version": "1.0.35",
+  "apkUrl": "https://expo.dev/artifacts/eas/fSMCL5mCiRQQts1lRxfNHcL3aivYmbJlSs23iypaBvU.apk",
+  "notes": "Atualização disponível: correções IPTV, links de pagamento e mensagens automáticas."
 }
