@@ -1,5 +1,5 @@
 {
-  "version": "1.0.35",
-  "apkUrl": "https://expo.dev/artifacts/eas/fSMCL5mCiRQQts1lRxfNHcL3aivYmbJlSs23iypaBvU.apk",
-  "notes": "Atualização disponível: correções IPTV, links de pagamento e mensagens automáticas."
+  "version": "1.0.37",
+  "apkUrl": "https://expo.dev/artifacts/eas/uYb9FdG1bYCEU-4M_PQFgq1OjlV8GjHjvF4_QQF-KK4.apk",
+  "notes": "Correção dos lembretes de clientes manuais no vencimento, geração do link de pagamento antes da fila e garantia de apenas um link por mensagem."
 }
